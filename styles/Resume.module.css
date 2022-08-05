@@ -29,7 +29,7 @@ color: #fff;
     height: 15px;
     padding-right: 5px;
     margin-right: 5px;
-    min-width: 15rem;
+    min-width: 12rem;
 }
 
 @media(max-width:885px){
@@ -39,6 +39,8 @@ color: #fff;
     .address,.gmail{
         border: none;
         height: 2rem;
+        margin: 0;
+        padding: 0;
     }
     .name{
         font-size: 1rem;
