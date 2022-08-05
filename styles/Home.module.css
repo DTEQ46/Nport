@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+    margin-top: 25px;
+}
+
+.name{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name h1{
+    font-size: 2.5rem;
+}
+.name h3{
+    margin-top: -1rem;
+    font-size: 1.5rem;
+}
+.intro{
+    max-width: 33rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #5b5b5b;
+}
+
+.intro span{
+    color: #fff;
+    animation: color-change 15s linear 15s infinite alternate;
+}
+
+.btn{
+    margin-top: 2rem;
+    width: 19.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+.btn button{
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 13px;
+border: none;
+width: 9rem;
+height: 2.5rem;
+background: #5B5B5B;
+border-radius: 5px;
+font-size: 16px;
+color: #FFFFFF;
+}
+
+.btn button:hover{
+    background: #202020;
+}
+
+@keyframes color-change{
+    0%{color: #5b5b5b;}
+    50%{color: #fff;}
+    100%{color: #5b5b5b;}
+}

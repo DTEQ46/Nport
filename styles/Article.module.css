@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    height: 200px;
+    background: #202022;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 20px;
+}
+
+.status{
+    font-weight: 700;
+    font-size: 0.7rem;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+.date{
+    font-weight: 700;
+    font-size: 0.7rem;
+    line-height: 30px;
+    color: #fff;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 0.7rem;
+    line-height: 30px;
+    color: #D4D1CA;
+}
+
+.readtime{
+    font-weight: 700;
+    font-size: 0.68rem;
+    line-height: 30px;
+    color: #fff;
+}
+
+.readtime a{
+    color: #5B5B5B;
+}
+
+.readtime a:hover{
+    color: #D4D1CA;
+}
+.readtime img{
+    height: 15px;
+    width: 15px;
+}
