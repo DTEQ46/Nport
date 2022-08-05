@@ -8,8 +8,19 @@ function Project({data}) {
           <div className={styles.techstack}>{data.techstack}</div>
           <div className={styles.description}>{data.description}</div>
           <div className={styles.show}>
-              <button><img src='/images/live.svg' /> Live</button>
-              <button><img src='/images/code.svg' />Code</button>
+          <a target="_blank"
+        href={data.live}
+        rel="noopener noreferrer">
+          <button>
+            <img src='/images/live.svg' /> Live
+          </button>
+          </a>
+          <a target="_blank"
+        href={data.source? data.source:""}
+        rel="noopener noreferrer">
+          <button><img src='/images/code.svg' />Code
+          </button>
+          </a>
           </div>
     </div>
   )
