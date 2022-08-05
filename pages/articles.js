@@ -7,7 +7,7 @@ import Article from '../components/Article';
 
 function Articles({art}) {
   return (
-    <Layout title='Articles' description='Portfolio Articles Daniel Olasehinde' btnLeft = 'Projects' btnLeftLink = '/projects' btnRight ='Resume' btnRightLink = '/articles'>
+    <Layout title='Articles' description='Portfolio Articles Daniel Olasehinde' btnLeft = 'Projects' btnLeftLink = '/projects' btnRight ='Resume' btnRightLink = '/resume'>
               <div className={styles.container}>
               {art.map((arts) => {
                   return(

@@ -18,7 +18,7 @@ function Navigation() {
             <a href='/'>Home</a>
             <a href='/projects'>Projects</a>
             <a href='/articles'>Articles</a>
-            <a href='/#'>Resume</a>
+            <a href='/resume'>Resume</a>
             <div className={styles.social}>
             <a target="_blank"
           href="https://twitter.com/danitex46"

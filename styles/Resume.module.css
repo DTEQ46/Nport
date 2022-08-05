@@ -1,0 +1,40 @@
+.container{
+position: relative;
+margin: 20px;
+height: 140vh;
+background: #202020;
+border-radius: 5px;
+color: #fff;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.title{
+    margin-top: -5px;
+}
+.contact{
+    display: flex;
+    font-size: 0.8rem;
+
+}
+.address,.gmail{
+    border: none;
+    border-right: 2px solid #fff;
+    height: 15px;
+    padding-right: 5px;
+    margin-right: 5px;
+    min-width: 15rem;
+}
+
+@media(max-width:885px){
+    .contact{
+        flex-direction: column;
+    }
+    .address,.gmail{
+        border: none;
+    }
+}
