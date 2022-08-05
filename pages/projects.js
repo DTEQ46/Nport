@@ -3,7 +3,6 @@ import React from 'react'
 import Layout from '../components/Layout'
 import styles from '../styles/Projects.module.css'
 import clientPromise from '../utils/mongodb';
-// import data from '../utils/data'
 import axios from 'axios'
 import Project from '../components/Project';
 
