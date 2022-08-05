@@ -9,7 +9,9 @@ function Navigation() {
     }
   return (
     <div className={styles.navigation}>
-      <img src='/images/logo.svg' alt='logo' />
+      <a href='https://danielolasehinde.vercel.app/'>
+        <img src='/images/logo.svg' alt='logo' />
+      </a>
       <Menubar toggleNav={toggleNav} />
       <nav ref={navRef} className={styles.nav}>
             <div className={styles.links}>
