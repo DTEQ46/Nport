@@ -1,7 +1,8 @@
 .container{
 position: relative;
 margin: 20px;
-height: 140vh;
+object-fit: contain;
+padding-bottom: 20px;
 background: #202020;
 border-radius: 5px;
 color: #fff;
@@ -50,5 +51,16 @@ color: #fff;
     }
     .name{
         font-size: 1rem;
+    }
+}
+
+@media(max-width:600px){
+    .name{
+        font-size: 0.9rem;
+    }
+    .img{
+        height: 1.2rem;
+        width: 1.2rem;
+        right: 10px;
     }
 }
