@@ -12,9 +12,9 @@ function Resume() {
                 <h2 className={styles.name}>DANIEL OLUWABUNMI OLASEHINDE</h2>
                 <p className={styles.title}>Full-Stack Developer</p>
                 <div className={styles.contact}>
-                    <div className={styles.address}>Address: Zone 11, Capital Area, Oshogbo, Osun State, Nigeria</div>
-                    <div className={styles.gmail}> E-Mail: olasehindedaniel109@gmail.com </div>
-                    <div className={styles.phone}>Tel.: +2348161648794</div>
+                    <div className={styles.address}>Zone 11, Capital Area, Oshogbo, Osun State, Nigeria</div>
+                    <div className={styles.gmail}>olasehindedaniel109@gmail.com </div>
+                    <div className={styles.phone}>+2348161648794</div>
                   </div>
                 </div>
 
