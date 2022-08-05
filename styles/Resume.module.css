@@ -36,6 +36,7 @@ color: #fff;
     }
     .address,.gmail{
         border: none;
+        height: 10rem;
     }
     .name{
         font-size: 1rem;
