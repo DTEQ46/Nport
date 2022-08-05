@@ -18,6 +18,8 @@ color: #fff;
 }
 .contact{
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 0.8rem;
 
 }
@@ -36,7 +38,7 @@ color: #fff;
     }
     .address,.gmail{
         border: none;
-        height: 10rem;
+        height: 2rem;
     }
     .name{
         font-size: 1rem;
