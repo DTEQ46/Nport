@@ -6,7 +6,11 @@ import Resumecomp from '../components/Resumecomp'
 function Resume() {
     return (
         <Layout title='Resume' description='Resume Daniel Olasehinde' btnLeft = 'Articles' btnLeftLink = '/articles' btnRight ='Home' btnRightLink = '/'>
+          
                   <div className={styles.container}>
+                  <a href='/resume.pdf' download="Daniel Olasehinde">
+                    <img className={styles.img} src='/images/download.svg' alt='download'/>
+                  </a>
                 <div className={styles.head}>
 
                 <h2 className={styles.name}>DANIEL OLUWABUNMI OLASEHINDE</h2>

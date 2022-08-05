@@ -6,7 +6,13 @@ background: #202020;
 border-radius: 5px;
 color: #fff;
 }
-
+.img{
+    position: absolute;
+    height: 1.5rem;
+    width: 1.5rem;
+    right: 20px;
+    top: 20px;
+}
 .head{
     display: flex;
     flex-direction: column;
