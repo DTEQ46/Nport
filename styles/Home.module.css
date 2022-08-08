@@ -75,3 +75,9 @@ color: #FFFFFF;
     50%{color: #fff;}
     100%{color: #5b5b5b;}
 }
+
+@media(max-width:990px){
+    .deskcontainer{
+        display: none;
+    }
+}

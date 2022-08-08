@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    /* margin-left: -2px; */
 }
 
 .btn{
@@ -67,4 +66,10 @@
 
 .inspired a:hover{
     text-decoration: underline;
+}
+
+@media(max-width:990px){
+    .container{
+        position: relative;
+    }
 }

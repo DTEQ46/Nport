@@ -51,11 +51,6 @@
     padding-left: 2px;
  }
 
- .footer{
-    position: absolute;
-    left: -2px;
-    bottom:-10rem;
- }
 
 @keyframes color-change{
     0%{color: #5b5b5b;}
@@ -63,7 +58,10 @@
     100%{color: #5b5b5b;}
 }
 
-@media(min-width:769px){
+@media(max-width:990px){
+.desktoplayout{
+    display: none;
+}
 
  
 }

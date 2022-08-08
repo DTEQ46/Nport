@@ -39,7 +39,6 @@ function Footer({ btnRight, btnRightLink, btnLeft, btnLeftLink }) {
       </div>
       <div className={styles.inspired}>Inspired by <a target='_blank' href='https://kadet.dev' rel='noopener noreferrer'>Kadet</a></div>
     </div>
-    
   )
 }
 

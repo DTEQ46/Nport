@@ -47,7 +47,10 @@ function Layout({title, description, children, btnRight,btnRightLink, btnLeft, b
       <main className={styles.main}> 
         {children}
       </main>
+      <div className={styles.footercont}>
       <Footer btnRight={btnRight} btnRightLink={btnRightLink} btnLeft={btnLeft} btnLeftLink={btnLeftLink}/>
+      </div>
+      
         </div>
       :
       <div className={styles.desktoplayout}>
