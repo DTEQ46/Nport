@@ -9,6 +9,11 @@
     margin-left: 25px;
     margin-right: 25px;
     padding-left: 20px;
+    transition: transform 1s ease-in-out;
+}
+
+.container:hover{
+    transform: scale(1.05);
 }
 
 .show{
@@ -58,4 +63,10 @@
     font-size: 0.68rem;
     line-height: 30px;
     color: #5B5B5B;
+}
+
+@media(max-width:990px){
+    .container:hover{
+        transform: none;
+    }
 }

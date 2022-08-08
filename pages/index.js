@@ -1,14 +1,42 @@
-
+import React,{useState, useCallback, useEffect} from 'react';
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
+import clientPromise from '../utils/mongodb';
+import Project from '../components/Project';
 import {useRouter} from 'next/router'
 
+const useMediaQuery = (width) => {
+  const [targetReached, setTargetReached] = useState(false);
 
-export default function Home() {
+  const updateTarget = useCallback((e) => {
+    if (e.matches) {
+      setTargetReached(true);
+    } else {
+      setTargetReached(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    const media = window.matchMedia(`(max-width: ${width}px)`);
+    media.addListener(updateTarget);
+
+    // Check on mount (callback is not called until a change occurs)
+    if (media.matches) {
+      setTargetReached(true);
+    }
+
+    return () => media.removeListener(updateTarget);
+  }, []);
+
+  return targetReached;
+};
+
+export default function Home({pro}) {
+  const isBreakpoint = useMediaQuery(990)
   const router = useRouter();
   return (
-    <div>
     <Layout title='Home' description='Daniel Olasehinde'>
+      {isBreakpoint?
       <div className={styles.container}>
         <div className={styles.name}>
           <h1>Daniel Olasehinde</h1>
@@ -31,8 +59,28 @@ export default function Home() {
 </svg>
 </button>
         </div>
-      </div>
+      </div>:
+      <div className={styles.deskcontainer}>
+              {pro.map((proj) => {
+                  return(
+                      <Project data={proj} />
+             ) })}
+              </div>  
+} 
       </Layout>
-    </div>
-  )
+    )
+}
+
+export async function getStaticProps() {
+  const client = await clientPromise;
+  const database = client.db('test');
+  const userdb = await database
+    .collection('projects')
+    .find({})
+    .toArray();
+  return {
+    props: {
+      pro: JSON.parse(JSON.stringify(userdb)),
+    },
+  };
 }

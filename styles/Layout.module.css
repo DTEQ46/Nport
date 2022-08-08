@@ -1,3 +1,69 @@
 .main{
     min-height: 50vh;
 }
+.name h1{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.name h3{
+    margin-top: -1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.intro{
+    max-width: 25rem;
+    color: #5b5b5b;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+}
+
+.intro span{
+    color: #fff;
+    animation: color-change 15s linear 15s infinite alternate;
+}
+.desktoplayout{
+    height: 100vh;
+}
+.fixedleft{
+    position: fixed;
+    width: 40%;
+    top:30px;
+    left: 7%;
+    right: 7%;
+    color: #fff;
+
+ }
+
+ .rightscroll{
+    position: absolute;
+    width: 40%;
+    top:50px;
+    right: 7%;
+ }
+
+ .desklinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5rem;
+    height: 7rem;
+    font-size: 0.8rem;
+    padding-left: 2px;
+ }
+
+ .footer{
+    position: absolute;
+    left: -2px;
+    bottom:-10rem;
+ }
+
+@keyframes color-change{
+    0%{color: #5b5b5b;}
+    50%{color: #fff;}
+    100%{color: #5b5b5b;}
+}
+
+@media(min-width:769px){
+
+ 
+}

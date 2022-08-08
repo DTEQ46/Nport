@@ -1,11 +1,11 @@
 .container{
-position: relative;
-margin: 20px;
-object-fit: contain;
-padding-bottom: 20px;
-background: #202020;
-border-radius: 5px;
-color: #fff;
+    position: relative;
+    object-fit: contain;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    background: #202020;
+    border-radius: 5px;
+    color: #fff;
 }
 .img{
     position: absolute;
@@ -22,24 +22,29 @@ color: #fff;
 }
 .title{
     margin-top: -5px;
+    font-size: 0.8rem;
 }
 .contact{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     font-size: 0.8rem;
 
 }
 .address,.gmail{
     border: none;
-    border-right: 2px solid #fff;
     height: 15px;
     padding-right: 5px;
     margin-right: 5px;
     min-width: 12rem;
 }
 
-@media(max-width:885px){
+.name{
+    font-size: 0.8rem;
+}
+
+@media(max-width:990px){
     .contact{
         flex-direction: column;
     }
@@ -52,15 +57,10 @@ color: #fff;
     .name{
         font-size: 1rem;
     }
-}
 
-@media(max-width:600px){
-    .name{
-        font-size: 0.9rem;
-    }
-    .img{
-        height: 1.2rem;
-        width: 1.2rem;
-        right: 10px;
+    .container{
+        position: relative;
+        margin: 20px;
+        max-width: 100%;
     }
 }
