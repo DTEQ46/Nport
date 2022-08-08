@@ -60,19 +60,4 @@
         margin: 20px;
         max-width: 100%;
     }
-
-    .img{
-        height: 1.2rem;
-        width: 1.2rem;
-        right: 15px;
-    }
-}
-
-@media(max-width:500px){
-    
-    .img{
-        height: 1.2rem;
-        width: 1.2rem;
-        right: 10px;
-    }
 }
