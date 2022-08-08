@@ -54,9 +54,6 @@
         margin: 0;
         padding: 0;
     }
-    .name{
-        font-size: 1rem;
-    }
 
     .container{
         position: relative;
@@ -68,5 +65,14 @@
         height: 1.2rem;
         width: 1.2rem;
         right: 15px;
+    }
+}
+
+@media(max-width:500px){
+    
+    .img{
+        height: 1.2rem;
+        width: 1.2rem;
+        right: 10px;
     }
 }
