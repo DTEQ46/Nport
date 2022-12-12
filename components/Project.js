@@ -15,12 +15,14 @@ function Project({data}) {
             <img src='/images/live.svg' /> Live
           </button>
           </a>
-          <a target="_blank"
-        href={data.source? data.source:""}
+       {data.source && 
+         <a target="_blank"
+        href={data.source}
         rel="noopener noreferrer">
           <button><img src='/images/code.svg' />Code
           </button>
-          </a>
+          </a> 
+       }
           </div>
     </div>
   )
