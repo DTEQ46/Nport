@@ -43,7 +43,7 @@ export default function Home({pro}) {
         <h3>Full-Stack Web Developer</h3>
         </div>
         <div className={styles.intro}>
-          <p>I am persionate about <span>Web Development</span> and <span>Internet of Things</span>. I care about writing <span>effective</span>, <span>clean</span> and <span>reusable</span> codes. I am always open to <span>learning</span> new technologies too.</p>
+          <p>I am passionate about <span>Web Development</span> and <span>Internet of Things</span>. I care about writing <span>effective</span>, <span>clean</span> and <span>reusable</span> codes. I am always open to <span>learning</span> new technologies too.</p>
         </div>
         <div className={styles.btn}>
           <button onClick={() => {
