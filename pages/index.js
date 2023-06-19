@@ -40,11 +40,12 @@ export default function Home({ pro }) {
         <div className={styles.container}>
           <div className={styles.name}>
             <h1>Daniel Olasehinde</h1>
-            <h3>Front-End Web Developer</h3>
+            <h3>Front-End Developer</h3>
           </div>
           <div className={styles.intro}>
             <p>
-              I am passionate about <span>Web Development</span> and{" "}
+              I am passionate about{" "}
+              <span>Web Development, Mobile Development</span> and{" "}
               <span>Internet of Things</span>. I care about writing{" "}
               <span>effective</span>, <span>clean</span> and{" "}
               <span>reusable</span> codes. I am always open to{" "}

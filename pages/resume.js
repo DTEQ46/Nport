@@ -33,10 +33,10 @@ function Resume() {
 
         <Resumecomp heading="ABOUT ME">
           <p>
-            I am passionate about Web Development and Internet of Things. I care
-            about writing clean, efficient and reusable codes. I am always ready
-            to work on any project, and I am open to learning new technologies,
-            too.
+            I am passionate about Web Development, Mobile Development and
+            Internet of Things. I care about writing clean, efficient and
+            reusable codes. I am always ready to work on any project, and I am
+            open to learning new technologies, too.
           </p>
         </Resumecomp>
         <Resumecomp heading="PORTFOLIO ULR: danielolasehinde.vercel.app" />
